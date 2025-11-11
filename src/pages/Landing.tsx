@@ -31,7 +31,7 @@ function Landing() {
         <Link to={"/"}>Get a Personalized Quote</Link>
         {/* {create thing for the link} */}
       </Button>
-      <div></div>
+      <div className="h-[2px] bg-red-400 mt-15 rounded-full"></div>
       <div className="mt-40">
         images here, maybe we can do 2 col to 1 col or 1 3 1 or maybe 3 1 or
         maybe 1 3

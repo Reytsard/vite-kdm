@@ -4,13 +4,13 @@ import { Button } from "./ui/button";
 
 function Header() {
   return (
-    <header className="w-screen h-[50px] flex flex-row items-end bg-red-100">
+    <header className="w-screen h-[50px] flex flex-row items-end font-sans">
       <ul className="w-full flex flex-row md:gap-3 items-center justify-center">
         <li>
           <Button asChild>
             <Link
               to={"/"}
-              className="hover:underline transition ease-in-out duration-15"
+              className="hover:underline transition ease-in-out duration-1500"
             >
               Home
             </Link>
