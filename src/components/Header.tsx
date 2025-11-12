@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router";
 import { Button } from "./ui/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBook,
+  faHome,
+  faInfo,
+  faInfoCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -12,6 +19,7 @@ function Header() {
               to={"/"}
               className="hover:underline transition ease-in-out duration-1500"
             >
+              <FontAwesomeIcon icon={faHome} />
               Home
             </Link>
           </Button>
@@ -22,6 +30,7 @@ function Header() {
               to={"/products"}
               className="hover:underline transition ease-in-out duration-15"
             >
+              <FontAwesomeIcon icon={faBook} />
               Products
             </Link>
           </Button>
@@ -32,6 +41,7 @@ function Header() {
               to={"/about"}
               className="hover:underline transition ease-in-out duration-15"
             >
+              <FontAwesomeIcon icon={faInfoCircle} />
               About
             </Link>
           </Button>

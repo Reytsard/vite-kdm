@@ -5,9 +5,9 @@ import { Outlet } from "react-router";
 
 function RootLayout() {
   return (
-    <div>
+    <div className="bg-linear-to-b from-white to-red-100">
       <Header />
-      <div className="px-[25px] md:mx-[100px] lg:px-[150px]">
+      <div className="px-[25px] md:mx-[100px] lg:px-[150px] ">
         <Outlet />
       </div>
       <Footer />
