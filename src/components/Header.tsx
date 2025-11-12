@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 function Header() {
   return (
-    <header className="w-screen h-[50px] flex flex-row items-end font-sans">
+    <header className="w-full h-[50px] flex flex-row items-end font-sans">
       <ul className="w-full flex flex-row md:gap-3 items-center justify-center">
         <li>
           <Button asChild>
